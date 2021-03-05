@@ -1,61 +1,63 @@
-# README-Generator
-This application helps create general README files for a new repository. Questions are asked to create and fill the data needed for a README file.
 
-```bash
-node index.js
-```
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+# ReadMe App Generator
 
-## User Story
+## Description 
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+This program allows users to make their own read me files. 
 
-## Acceptance Criteria
+The user will be asked to input information about the app they have created for their README.md project file.
 
-```md
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-* A sample README generated using the application must be submitted.
 
-* Your GitHub repository containing your application code.
+## Table of Contents 
 
-### Walkthrough Video: 27%
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [License](#license)
+1. [Contributing](#contributing)
+1. [Tests](#tests)
+1. [Questions](#questions)
 
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
 
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
+## Installation
 
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
+Open the file on the Visual Studio Code. 
 
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+Look for the index.js file and right click to activate the integrated terminal.
 
-### Technical Acceptance Criteria: 40%
+Run "npm i". Now you will be ready to run the app using "node index.js" 
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+## Usage 
 
-### Repository Quality: 13%
+Answer the questions as asked from you.
 
-* Repository has a unique name.
+![Sample Questions Answered](/samplePic.png)
 
-* Repository follows best practices for file structure and naming conventions.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+When entering the editor, type as you would like to space on your README.md file, to exit the editor, press "esc" and then use "shift"  "z" "z" to resume.
 
-* Repository contains multiple descriptive commit messages.
+![Sample Questions Answered](/samplePic2.png)
 
-* Repository contains a high-quality README with description and a link to walkthrough video.
+Answer all questions as clearly as possible. 
 
-----
-* A walkthrough video demonstrating the functionality of the application.
+When complete. The README.md file will be generated in this same folder.
 
-* A sample README.md file for a project repository generated using your application
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+## License
+
+This project applies the Apache 2.0 license license. 
+
+## Contributing
+
+No information was provided by the creator
+
+## Tests
+
+No information was provided by the creator
+
+## Questions
+
+For any other questions or concerns, catch me on GitHub using my profile link [GitHub Link](https://github.com/arturorito).
+You can also email me at arturoritoo@gmail.com.

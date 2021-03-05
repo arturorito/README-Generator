@@ -1,5 +1,5 @@
 const fs = require("fs");
-const generateMarkdown = require("../Develop/utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown")
 const inquirer = require("inquirer");
 var chosenBadge;
 
@@ -69,7 +69,7 @@ const questions = [
         //Test Samples
         type: 'editor',
         name: 'projectTests',
-        message: 'Want to provide test options? ',
+        message: 'Provide any test samples.',
       },
       {
         //GitHub goes wtih the contributing section
@@ -171,7 +171,7 @@ function init() {
         if (response.projectUsageInfo === "") {
             response.projectUsageInfo = "No information was provided by the creator"
         };
-        writeToFile("ReadMETEST.md", response);
+        writeToFile("README.md", response);
     })
 }
 
